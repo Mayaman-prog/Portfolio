@@ -5,19 +5,16 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import LoadingScreen from "./components/LoadingScreen";
-import Cursor from "./components/Cursor";
 import ScrollProgress from "./components/ScrollProgress";
 import ThemeToggle from "./components/ThemeToggle";
 import BackToTop from "./components/BackToTop";
 import useScrollProgress from "./hooks/useScrollProgress";
-import useCursor from "./hooks/useCursor";
 import useBackToTop from "./hooks/useBackToTop";
 import useTheme from "./hooks/useTheme";
 
 function App() {
   const [loading, setLoading] = useState(true);
   const progress = useScrollProgress();
-  const { pos: cursorPos, hovering: cursorHovering } = useCursor();
   const { visible: showBackToTop, scrollToTop } = useBackToTop();
   const { dark, toggle: toggleTheme } = useTheme();
 
@@ -29,7 +26,6 @@ function App() {
   return (
     <div className="App">
       <LoadingScreen visible={loading} />
-      <Cursor pos={cursorPos} hovering={cursorHovering} />
       <ScrollProgress progress={progress} />
       <ThemeToggle dark={dark} onToggle={toggleTheme} />
       <Hero />

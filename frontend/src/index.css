@@ -12,7 +12,6 @@
   --bg-card: rgba(20, 20, 40, 0.8);
   --text: #e0e0ff;
   --text-muted: #8888aa;
-  --cursor-size: 20px;
   --nav-bg: rgba(10, 10, 26, 0.8);
   --nav-border: rgba(0, 245, 255, 0.2);
   --footer-bg: rgba(10, 10, 26, 0.9);
@@ -41,11 +40,6 @@ body {
   color: var(--text);
   line-height: 1.6;
   overflow-x: hidden;
-  cursor: none;
-}
-
-a, button, input, textarea, .tag, .social-link, .project-link, .nav-links a {
-  cursor: none;
 }
 
 .App {
@@ -55,38 +49,6 @@ a, button, input, textarea, .tag, .social-link, .project-link, .nav-links a {
 
 h1, h2, h3 {
   font-family: 'Orbitron', sans-serif;
-}
-
-/* Custom Cursor */
-.cursor {
-  position: fixed;
-  width: var(--cursor-size);
-  height: var(--cursor-size);
-  border: 2px solid var(--primary);
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 9999;
-  transition: width 0.3s, height 0.3s, border-color 0.3s, background 0.3s;
-  mix-blend-mode: difference;
-}
-
-.cursor-dot {
-  position: fixed;
-  width: 4px;
-  height: 4px;
-  background: var(--primary);
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 10000;
-  transition: width 0.3s, height 0.3s, background 0.3s;
-  mix-blend-mode: difference;
-}
-
-.cursor.hovering {
-  width: 40px;
-  height: 40px;
-  border-color: var(--secondary);
-  background: rgba(255, 0, 255, 0.1);
 }
 
 /* Loading Screen */
@@ -996,19 +958,6 @@ footer p {
 
 /* Responsive - Mobile */
 @media (max-width: 768px) {
-  body {
-    cursor: auto;
-  }
-
-  a, button, input, textarea, .tag, .social-link, .project-link {
-    cursor: auto;
-  }
-
-  .cursor,
-  .cursor-dot {
-    display: none;
-  }
-
   .nav-links {
     display: none;
   }
