@@ -16,6 +16,10 @@ export default defineConfig([
     languageOptions: {
       globals: globals.browser,
       parserOptions: { ecmaFeatures: { jsx: true } },
-    }
+    },
+    rules: {
+      // Disable the problematic rule causing issues with structuredClone
+      'constructor-super': 'off',
+    },
   },
 ])
