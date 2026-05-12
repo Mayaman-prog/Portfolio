@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Penetration Testing",
+    "icon": "https://img.icons8.com/fluency/96/target.png",
+    "color": "#00f5ff",
+    "shape": "Octahedron",
+    "description": "Advanced web application and network penetration testing",
+    "level": 90
+  },
+  {
+    "name": "Network Security",
+    "icon": "https://img.icons8.com/fluency/96/lock.png",
+    "color": "#ff00ff",
+    "shape": "Icosahedron",
+    "description": "Firewall configuration, IDS/IPS implementation, VPN setup",
+    "level": 85
+  },
+  {
+    "name": "Ethical Hacking",
+    "icon": "https://img.icons8.com/fluency/96/hacker.png",
+    "color": "#ffff00",
+    "shape": "Tetrahedron",
+    "description": "System exploitation, privilege escalation, post-exploitation",
+    "level": 88
+  },
+  {
+    "name": "Python & Automation",
+    "icon": "https://img.icons8.com/fluency/96/python.png",
+    "color": "#00ff88",
+    "shape": "Torus",
+    "description": "Building security tools, automation scripts, exploits",
+    "level": 80
+  },
+  {
+    "name": "CTF Competition",
+    "icon": "https://img.icons8.com/fluency/96/trophy.png",
+    "color": "#ff6600",
+    "shape": "Octahedron",
+    "description": "Active participant in national and international CTFs",
+    "level": 92
+  },
+  {
+    "name": "Bug Bounty",
+    "icon": "https://img.icons8.com/fluency/96/bug.png",
+    "color": "#ff0066",
+    "shape": "TorusKnot",
+    "description": "Found vulnerabilities in major platforms and companies",
+    "level": 75
+  }
+]

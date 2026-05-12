@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Network Scanner Tool",
+    "description": "A comprehensive network scanning utility built with Python that identifies active hosts, open ports, and services. Features real-time monitoring and detailed reporting capabilities for security assessments.",
+    "tags": ["Python", "Nmap API", "Socket Programming", "Scapy"],
+    "icon": "https://img.icons8.com/fluency/96/search.png",
+    "colors": ["#00f5ff", "#ff00ff"]
+  },
+  {
+    "title": "Vulnerability Assessment Platform",
+    "description": "Full-stack web application for automated vulnerability scanning and tracking. Includes CVE database integration, remediation tracking, and executive reporting features.",
+    "tags": ["React", "Node.js", "PostgreSQL", "REST API"],
+    "icon": "https://img.icons8.com/fluency/96/shield.png",
+    "colors": ["#ff00ff", "#ffff00"]
+  },
+  {
+    "title": "Malware Detection System",
+    "description": "Machine learning powered malware detection system using static and dynamic analysis techniques. Achieved 95% accuracy rate on test datasets with low false positive rates.",
+    "tags": ["Python", "TensorFlow", "PE Analysis", "YARA"],
+    "icon": "https://img.icons8.com/fluency/96/virus.png",
+    "colors": ["#ffff00", "#00ff88"]
+  },
+  {
+    "title": "Secure Messaging App",
+    "description": "End-to-end encrypted messaging application with zero-knowledge architecture. Implements perfect forward secrecy and includes self-destructing messages feature.",
+    "tags": ["React Native", "Signal Protocol", "Node.js", "MongoDB"],
+    "icon": "https://img.icons8.com/fluency/96/chat.png",
+    "colors": ["#00ff88", "#00f5ff"]
+  }
+]

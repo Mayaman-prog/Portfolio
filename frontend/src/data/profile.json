@@ -1,0 +1,29 @@
+{
+  "name": "Mayaman Ram",
+  "title": "Cybersecurity Enthusiast",
+  "roles": ["CYBERSECURITY ENTHUSIAST", "PENETRATION TESTER", "ETHICAL HACKER", "BUG BOUNTY HUNTER"],
+  "tagline": ["Penetration Testing", "Ethical Hacking", "Network Security", "Bug Bounty Hunter"],
+  "bio": [
+    "Hello! I'm Mayaman Ram, a passionate cybersecurity enthusiast currently pursuing my Bachelor's degree in Cybersecurity. My mission is to protect digital landscapes and make the internet a safer place for everyone.",
+    "With expertise in penetration testing, vulnerability assessment, and ethical hacking, I actively contribute to the cybersecurity community through bug bounty programs and open-source security tools.",
+    "I believe in continuous learning and staying ahead of emerging threats. My approach combines technical expertise with creative problem-solving to identify and mitigate security vulnerabilities."
+  ],
+  "stats": [
+    { "value": "50+", "label": "CTF Challenges" },
+    { "value": "15+", "label": "Projects" },
+    { "value": "3+", "label": "Years Experience" }
+  ],
+  "social": [
+    { "label": "GitHub", "url": "#" },
+    { "label": "LinkedIn", "url": "#" },
+    { "label": "Twitter", "url": "#" },
+    { "label": "Email", "url": "#" }
+  ],
+  "resumeUrl": "#",
+  "nav": [
+    { "label": "About", "href": "about" },
+    { "label": "Skills", "href": "skills" },
+    { "label": "Projects", "href": "projects" },
+    { "label": "Contact", "href": "contact" }
+  ]
+}
