@@ -36,6 +36,5 @@ function App() {
       <BackToTop visible={showBackToTop} onClick={scrollToTop} />
     </div>
   );
-}
 
 export default App;
